@@ -1,0 +1,24 @@
+cd C:\Users\Aluno\Documents\NetBeansProjects\Aula1; "JAVA_HOME=C:\\Program Files\\Java\\jdk-21" cmd /c "\"C:\\Program Files\\NetBeans-15\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.aula1.Aula1 \"-Dexec.executable=C:\\Program Files\\Java\\jdk-21\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-15\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" org.codehaus.mojo:exec-maven-plugin:3.0.0:exec"
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+
+------------------------< com.mycompany:Aula1 >-------------------------
+Building Aula1 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- exec-maven-plugin:3.0.0:exec (default-cli) @ Aula1 ---
+Digite o valor do produto: 
+5000
+Quantas vezes você quer parcela o produto:  
+6
+Quantas vezes você quer parcela o produto:  
+5
+ Valor do produto: R$ 5000.0
+Valor da parcela 5.0x de R$:1000.0 sem juros
+Mercado Mamão com açúcar 
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  14.602 s
+Finished at: 2024-08-01T10:00:14-03:00
+------------------------------------------------------------------------
